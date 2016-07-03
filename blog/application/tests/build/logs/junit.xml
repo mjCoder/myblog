@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="5" assertions="7" failures="0" errors="0" time="0.067004">
+    <testsuite name="Welcome_test" file="C:\xampp\htdocs\blog\application\tests\controllers\Welcome_test.php" fullPackage="Welcome" tests="3" assertions="3" failures="0" errors="0" time="0.020001">
+      <testcase name="test_index" class="Welcome_test" file="C:\xampp\htdocs\blog\application\tests\controllers\Welcome_test.php" line="13" assertions="1" time="0.009001"/>
+      <testcase name="test_method_404" class="Welcome_test" file="C:\xampp\htdocs\blog\application\tests\controllers\Welcome_test.php" line="19" assertions="1" time="0.007000"/>
+      <testcase name="test_APPPATH" class="Welcome_test" file="C:\xampp\htdocs\blog\application\tests\controllers\Welcome_test.php" line="25" assertions="1" time="0.004000"/>
+    </testsuite>
+    <testsuite name="Blogs_test" file="C:\xampp\htdocs\blog\application\tests\models\Blogs_test.php" fullPackage="Blogs" tests="2" assertions="4" failures="0" errors="0" time="0.047003">
+      <testcase name="test_getAllBlogs" class="Blogs_test" file="C:\xampp\htdocs\blog\application\tests\models\Blogs_test.php" line="12" assertions="2" time="0.027002"/>
+      <testcase name="test_createBlog" class="Blogs_test" file="C:\xampp\htdocs\blog\application\tests\models\Blogs_test.php" line="43" assertions="2" time="0.020001"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
